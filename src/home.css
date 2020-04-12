@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: Poppins;
+  src: url(./font/Poppins-Regular.ttf);
+}
+
+#home_img{
+	width: 98.93vw;
+height: 47.5vw;
+
+}
+
+#img_home{
+    
+	width: 100%;
+}
+
+#btn{
+
+position: absolute;
+width: 11.61vw;
+height: 3.51vw;
+left: 8.74vw;
+top: 37.6vw;
+
+}
+
+
+#title{
+position: absolute;
+width: 49.3vw;
+height: 8.49vw;
+left: 8.49vw;
+top: 15.6vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 3.5vw;
+line-height: 4.24vw;
+/* or 121% */
+
+
+color: #36305E;
+
+}
+
+#sub{
+
+position: absolute;
+width: 30.8vw;
+height: 7.08vw;
+left:8.49vw;
+top: 27.08vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1,31vw;
+line-height: 2.32vw;
+/* or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;	
+}
+
+#man{
+
+width: 40.99vw;
+height: 41.24vw;
+margin-left: 5.3vw;
+margin-top: 18.3vw;
+
+}
+
+#arrow{
+	position: fixed;
+width: 3.07vw;
+height: 3.07vw;
+left: 94.5vw;
+top: 37.8vw;
+}

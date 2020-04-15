@@ -60,7 +60,7 @@ return(
 <a id="footer_m">cig@iitr.ac.in </a>
 <a id="footer_n">13332-28-6264 </a>
 <a id="footer_o"> SAC, IIT Roorkee Roorkee, Uttrakhand, India- 247667</a>
-<a id="footer_p"> Crafted with    &nbsp;  &nbsp; &nbsp; by Design Studio</a> 
+<a id="footer_p"> Crafted with </a><a id="footer_q"> by Design Studio</a> 
         </div>
 
 )}}

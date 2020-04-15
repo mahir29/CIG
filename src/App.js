@@ -6,7 +6,9 @@ import Login from  './login.js';
 import About from  './about.js';
 import NavBar from  './navbar.js';
 import Home from  './home.js'
-import Footer from './footer.js'; 
+import Footer from './footer.js';
+import Resources from './resources.js'; 
+import Project from './project.js'; 
 
 
 class App extends Component {
@@ -28,11 +30,13 @@ return(
         <NavBar/>
 <div id="block">
         <Switch>
-      <Route path="/about"  render={(props)=><About/>} />
+          <Route path="/about"  render={(props)=><About/>} />
           <Route path="/home"  render={(props)=><Home/>}/>
+            <Route path="/resources"  render={(props)=><Resources/>}/>
+               <Route path="/project"  render={(props)=><Project/>}/>
         </Switch>
         </div>
-        <Footer/>
+   <Footer/>
         </div>
 
 

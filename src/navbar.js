@@ -64,7 +64,7 @@ return(
           <Link to="/about" ><div id="second"   onClick={this.handleClick}>About Us </div></Link>
           <Link id="third" to="/project"  onClick={this.handleClick}>Our Projects </Link>
         <Link to="/resources" > <div id="fourth"   onClick={this.handleClick}>Resources </div></Link>
-          <div id="fifth"  onClick={this.handleClick}  >Contact</div>
+          <Link to="/contact" id="fifth"  onClick={this.handleClick}  >Contact</Link>
          
          </div>
          

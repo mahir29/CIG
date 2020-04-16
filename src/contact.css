@@ -1,0 +1,204 @@
+#contact_bg{
+	background: linear-gradient(180deg, rgba(243, 246, 253, 0) 0%, #F3F6FD 100%);
+	height: 78.125vw;
+}
+
+#contact_head{
+
+	width: 19.54vw;
+height: 4.09vw;
+margin-left: 8.78vw;
+margin-top: 8.34vw;
+
+/* POPPINS HEADING */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.92vw;
+line-height: 4.24vw;
+/* or 145% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+#contact_phone{
+
+
+width: 7.68vw;
+height: 2.34vw;
+margin-left: 8.78vw;
+margin-top: 2.03vw;
+
+}
+
+#contact_map{
+
+width: 31.8vw;
+height: 43.11vw;
+margin-left: 8.78vw;
+margin-top: 11.25vw;
+
+}
+
+#dir_name
+{
+position: absolute;
+width: 12.59vw;
+height: 4.68vw;
+left: 12.29vw;
+top: 18.53vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.31vw;
+line-height: 2.34vw;
+/* or 178% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+
+
+#dir_mob{
+position: absolute;
+width: 10.54vw;
+height: 2.34vw;
+left: 12.29vw;
+top: 23.40vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.31vw;
+line-height: 2.34vw;
+/* identical to box height, or 178% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+#head_name
+{
+position: absolute;
+width: 12.59vw;
+height: 4.68vw;
+left: 25.29vw;
+top: 18.53vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.31vw;
+line-height: 2.34vw;
+/* or 178% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+
+
+#head_mob{
+position: absolute;
+width: 10.54vw;
+height: 2.34vw;
+left: 25.29vw;
+top: 23.40vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.31vw;
+line-height: 2.34vw;
+/* identical to box height, or 178% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+
+#soc{
+
+margin-left: 10.938vw;
+margin-top: 4.688vw;
+margin-bottom: 6.510vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.758vw;
+display: flex;
+align-items: center;
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+#contact_msg{
+	position: absolute;
+width: 2.083vw;
+height: 2.083vw;
+left: 7.813vw;
+top: 77.148vw;
+}
+
+#lin_contact{
+position: absolute;
+left:11.133vw;
+top: 80.078vw;
+width: 1.563vw;
+height: 1.563vw;
+}
+
+#fb_contact{
+position: absolute;
+left:13.737vw;
+top: 80.078vw;
+width: 1.563vw;
+height: 1.563vw;
+}
+
+#mail_contact{
+position: absolute;
+left:16.341vw;
+top: 80.078vw;
+width: 1.563vw;
+height: 1.563vw;
+}
+
+
+
+#lin_contact:hover{
+	 box-shadow: 0.130vw 0.130vw 0.065vw grey;
+}
+
+
+#fb_contact:hover{
+	 box-shadow: 0.130vw 0.130vw 0.065vw grey;
+}
+
+
+#mail_contact:hover{
+	 box-shadow: 0.130vw 0.130vw 0.065vw grey;
+}

@@ -1,10 +1,10 @@
-#form_bg{
+#form_bg_a{
 position: absolute;
   width: 38.542vw;
-height: 67.583vw;
+height: 66.583vw;
+left:31vw;
+height: 70.9vw;
 
-top:9.766vw;
-left:52.083vw;
 /* white */
 
 background: #FFFFFF;
@@ -14,11 +14,6 @@ border: 0.04.753vw solid #F3F6FD;
 box-sizing: border-box;
 }
 
-.chk_box{
-  border: 1px solid #828282;
-box-sizing: border-box;
-border-radius: 1px;
-}
 
 
 
@@ -276,12 +271,12 @@ border-radius: 0.065vw;
 }
 
 
-#form_msg{
+#form_msg_a{
   position: absolute;
 width: 31.966vw;
 height: 1.302vw;
 left: 3.385vw;
-top: 58.581vw !important;
+top: 56.581vw;
 
 /* 14 px */
 
@@ -306,12 +301,12 @@ color: #828282;
 }
 
 
-#msg_focus{
+#msg_focus_a{
   position: absolute;
 width: 31.966vw;
 height: 0.065vw;
 left: 3.385vw;
-top: 60.143vw !important;
+top: 58.143vw;
 
 /* grey 2 */
 
@@ -321,7 +316,7 @@ border-radius: 0.065vw;
 }
 
 
-#form_msg:focus + #msg_focus {
+#form_msg_a:focus + #msg_focus_a {
     border: 0.0326vw solid #324FC5  !important;
  
 }
@@ -511,13 +506,13 @@ color: #4F4F4F;
 }
 
 
-#msg_form{
+#msg_form_a{
 
 position: absolute;
 width: 5.339vw;
 height: 1.693vw;
 left: 3.385vw;
-top: 56.107vw!important;
+top: 54.107vw;
 
 font-family: Poppins;
 font-style: normal;
@@ -533,10 +528,10 @@ color: #324FC5;
 }
 
 
-#btn_form{
+#btn_form_a{
   position: absolute;
 left: 3.385vw;
-top: 63.049vw !important;
+top: 60.049vw;
 
 /* unwrapped button 2 */
 
@@ -565,7 +560,7 @@ box-sizing: border-box;
 border-radius: 0.195vw;
 }
 
-#btn_form:hover{
+#btn_form_a:hover{
   background: #102886;
 border-radius: 0.195vw;
 }
@@ -601,168 +596,3 @@ height: 1.1vw;
 
 
 
-
-/* Customize the label (the container) */
-.container {
-  display: block;
-
-  padding-left: 35px;
- 
-  cursor: pointer;
-  font-size: 16px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-family: Noto Sans;
-font-style: normal;
-font-weight: normal;
-
-}
-
-#box_a{
-position: absolute;
-top: 42.3vw;
-left: 3.385vw;
-}
-
-
-
-#box_b{
-  position: absolute;
-top: 45.3vw;
-left: 3.385vw;
-}
-
-
-#box_c{
-  position: absolute;
-top: 48.3vw;
-left: 3.385vw;
-}
-
-/* Hide the browser's default checkbox */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 16px;
-  width: 16px;
-  background-color: #eee;
-}
-
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #324FC5;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-  left: 4px;
-  top: 1px;
-  width: 4px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-
-.container_r {
- display: block;
- 
-  padding-left: 35px;
-
-  cursor: pointer;
-  font-size: 16px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-family: Noto Sans;
-font-style: normal;
-font-weight: normal;
-}
-
-#rad{
-  position: absolute;
-  top:51vw;
-  left:3.385vw;
-}
-/* Hide the browser's default radio button */
-.container_r input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-/* Create a custom radio button */
-.checkmark_r {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 18px;
-  width: 18px;
-  background-color: #eee;
-  border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.container_r:hover input ~ .checkmark_r {
-  background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.container_r input:checked ~ .checkmark_r {
-  background-color: #324FC5;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark_r:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container_r input:checked ~ .checkmark_r:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.container_r .checkmark_r:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-}

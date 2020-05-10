@@ -7,6 +7,11 @@ import mission from './images/mission.png';
 import objective from './images/objective.png'; 
 import vision from './images/vision.png'; 
 import Card from './card.js'; 
+import View from './view.js';
+import vis from './images/vis_about.svg';
+import mis from './images/mis_about.svg';
+import obj from './images/obj_about.svg';
+
 
 class About extends Component {
 constructor(props)
@@ -16,7 +21,11 @@ constructor(props)
   this.state={admin_body:[{name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
   {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
   {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
-  {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"}]}
+  {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"}],
+lecture:{heading:"Mission",sub:"Building a stronger connection between Academia & Industry via valuable collaborations",link:""}
+  ,workshop:{heading:"Vision",sub:" To make IIT Roorkee a hub of Innovation , Research and opportunities",link:""},
+  project:{heading:"Objective",sub:"Knowledge Exchange Seminars Industry Interactions Events Corporate Collaborations",link:"",visible:false,form:false}
+}
   
 }
 
@@ -39,19 +48,19 @@ research needs of Industry and walking together towards innovating our society t
     <img  id="pc" src={pic}/>
  </div>
 
-    <div className="row">
-    <div className="column">
-    <img  id="msn" src={mission}/>
+  <div className="row_abt">
+    <div  onClick ={this.form_vis} className="column_view">
+    < View   icon={vis} data={this.state.lecture}/>
       </div>
-      <div className="column">
-      <img  id="obj" src={objective}/>
+      <div onClick ={this.form_vis}  className="column_view">
+      <View icon={mis} data={this.state.workshop}/>
        </div>
 
-      <div className="column">
-      <img  id="vis" src={vision}/>
+      <div  onClick ={this.form_vis} className="column_view">
+      <View icon={obj} data={this.state.project}/>
       </div>
        </div>
-  
+
 <div id="tm"> Our Team </div>
 <div id="adm"> Administrative Body </div>
   <div  className="row" >

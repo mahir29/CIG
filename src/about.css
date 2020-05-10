@@ -29,13 +29,13 @@ color: #212121;
 }
 
 #adm{
-	margin-top: 40px;
+	margin-top: 2.94vw;
 	margin-left: 8.7%;
 	font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
-line-height: 36px;
+font-size: 1.563vw;
+line-height: 2.344vw;
 display: flex;
 align-items: center;
 
@@ -46,7 +46,7 @@ color: #212121;
 
 #tm{
 	margin-left: 8.7%;
-margin-top: 165px;
+margin-top: 12.042vw;
 	font-family: Poppins;
 font-style: normal;
 font-weight: 600;
@@ -65,7 +65,7 @@ color: #212121;
 width: 35%;
 
 margin-left: 65%;
-margin-top: 208px;
+margin-top: 13.542vw;
 
 }
 
@@ -95,7 +95,16 @@ width: 100%;
 
 }
 
+.row_abt::after {
+	  content: "";
+  clear: both;
+  display: table;
+}
 
+.row_abt{
+	margin-top: 5.1vw;
+
+}
 
 .row::after {
   content: "";
@@ -104,7 +113,10 @@ width: 100%;
 }
 
 .row{
+	display: block;
+	margin-top: 2.92vw;
 	margin-bottom: 9.57vw;
+	margin-left: 8.78vw;
 }
 
 
@@ -124,8 +136,8 @@ color: #212121;
 
 /* headings */
 
-margin-left: 7.82vw;
-margin-top: 5.84vw;
+margin-left: 8.7%;
+margin-top: 7.6vw;
 
 }
 

@@ -77,7 +77,7 @@ if( !!r
 }
 
 onWindowScroll(){
-   console.log("go")
+   console.log(this.state.max_workshop);
   if(this.check()&&this.state.visited)
     { 
       var num =parseInt(this.state.max_workshop);
@@ -128,7 +128,7 @@ render(){
 
 
 return(
-       <div >
+       <div  id="collab_card">
 <div className="row_collab">
     <div className="column_col">
     <img className="col_img" src={sample}/>

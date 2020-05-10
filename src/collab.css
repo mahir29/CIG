@@ -6,6 +6,9 @@
 }
 
 
+#collab_card{position: relative;}
+
+
 .column_col {
  float:left;
  width: 9.17vw;
@@ -33,7 +36,7 @@ position: absolute;
 width:9.8vw;
 height: 2.6vw;
 left: 71.08vw;
-top: 170.2vw;
+top: 5.2vw;
 
 font-family: Poppins;
 font-style: normal;
@@ -55,7 +58,7 @@ color: #212121;
 width: 18.08vw;
 height: 2.63vw;
 left: 71.08vw;
-top: 180vw;
+top: 14.25vw;
 
 font-family: Poppins;
 font-style: normal;
@@ -79,7 +82,7 @@ position: absolute;
 width: 5.27vw;
 height: 5.79vw;
 left: 71.08vw;
-top: 164.2vw;
+top: 1.0vw;
 
 font-family: Poppins;
 font-style: normal;
@@ -97,7 +100,7 @@ position: absolute;
 width: 7.54vw;
 height: 6.51vw;
 left: 71.08vw;
-top: 174.25vw;
+top: 9.25vw;
 
 font-family: Poppins;
 font-style: normal;

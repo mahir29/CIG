@@ -18,9 +18,9 @@ render(){
 
 
 return(
-       <div id="feat_bg" >
-<div id="heading_feat">Featured Works</div>
-   <div  className="row" >
+       <div id="featured_bg" >
+
+   <div  className="row_feat" >
 {this.state.feat.map((feat, index) => (
     <div  className="card_feat" id={index} > 
 <img className="icn" src={icon}/>

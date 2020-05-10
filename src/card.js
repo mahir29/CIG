@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './card.css';
 import {Switch,Route,Redirect} from 'react-router-dom';
-import card_msg from './images/card-msg.png'; 
-import card_mob from './images/card-mob.png'; 
+import card_msg from './images/card-msg.svg'; 
+import card_mob from './images/card-mob.svg'; 
 
 
 
@@ -23,7 +23,7 @@ return(
        <div >
       <div id="big">
 
- <img src={this.props.admin.img} id="img"/>
+ <img src={this.props.admin.img} id="img_card"/>
   <img src={card_msg} id="crd_msg" />
    <img src={card_mob}  id="crd_mob"/>
  <div id="nm">{this.props.admin.name} </div>

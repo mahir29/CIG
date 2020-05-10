@@ -15,16 +15,53 @@ height: 47.5vw;
 	width: 100%;
 }
 
-#btn{
-
+#line{
 position: absolute;
-width: 11.61vw;
-height: 3.51vw;
-left: 8.74vw;
-top: 37.6vw;
-
+width: 0.13vw;
+height: 19.01vw;
+left: 52.73vw;
+top: 157.19vw;
 }
 
+#btn_home{
+
+position: absolute;
+z-index: 2;
+
+width: 14.64vw;
+height: 3.01vw;
+left: 8.74vw;
+top: 37.6vw;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.17vw;
+line-height: 1.46vw;
+background: #324FC5;
+/* identical to box height, or 125% */
+vertical-align: middle;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #FFFFFF;
+background: #324FC5;
+box-shadow: 0px 4px 8px rgba(24, 25, 36, 0.37);
+border-radius: 3px;
+padding-top: 0.65vw;
+}
+
+#btn_home:hover{
+	background: #102886;
+border-radius: 3px;
+}
+
+span {
+
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
 
 #title{
 position: absolute;
@@ -71,7 +108,7 @@ color: #4F4F4F;
 width: 40.99vw;
 height: 41.24vw;
 margin-left: 5.3vw;
-margin-top: 15.3vw;
+margin-top: 8.3vw;
 
 }
 
@@ -88,7 +125,7 @@ top: 37.8vw;
 width: 34.1vw;
 height: 17.4vw;
 left: 53.5vw;
-top: 73.05vw;
+top: 67.06vw;
 
 }
 
@@ -102,10 +139,10 @@ top: 108.3vw;
 }
 
 #man_a{
-	margin-top: 2.8vw;
-	width: 35.9vw;
-height: 36.2vw;
-margin-left: 49.3vw;
+	margin-top: 2.6vw;
+	width: 37.7vw;
+height: 33.6vw;
+margin-left: 54.3vw;
 }
 
 #vw{
@@ -113,7 +150,7 @@ margin-left: 49.3vw;
 width: 9.8vw;
 height: 1.36vw;
 left: 53.5vw;
-top: 93.4vw;
+top: 87.4vw;
 
 /* unwrapped button 2 */
 
@@ -167,7 +204,7 @@ color: #324FC5;
 width: 37.8vw;
 height: 3.5vw;
 margin-left: 8.85vw;
-margin-top:16.17vw;
+margin-top:12.17vw;
 
 /* heading 36 px */
 
@@ -180,6 +217,44 @@ line-height: 3.5vw;
 
 display: flex;
 align-items: center;
+
+/* headings */
+
+color: #212121;
+}
+
+
+#hand{
+	position: absolute;
+	z-index: 2;
+width: 17.49vw;
+height: 26.7vw;
+left: 68.44vw;
+top: 16.03vw;
+}
+
+#col{
+	margin-top: 5.92vw;
+}
+
+#heading_feat{
+
+
+
+width: 26.83vw;
+height: 3.125vw;
+margin-left: 7.98vw;
+margin-top: 13.1vw;
+
+/* heading 36 px */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.34vw;
+line-height: 3.125vw;
+/* identical to box height, or 133% */
+
 
 /* headings */
 

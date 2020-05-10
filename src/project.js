@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Switch,Route,Redirect,Link} from 'react-router-dom';
 import './project.css';
-import project_bg from './images/project_bg.png'; 
+import project_bg from './images/project_bg.svg'; 
 
 class Project extends Component {
 constructor(props)

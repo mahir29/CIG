@@ -10,6 +10,7 @@ import Footer from './footer.js';
 import Resources from './resources.js'; 
 import Project from './project.js'; 
 import Contact from './contact.js'; 
+import Colloboration from './collaboration.js'; 
 
 class App extends Component {
 constructor(props)
@@ -30,11 +31,15 @@ return(
         <NavBar/>
 <div >
         <Switch>
+        <Route exact path="/" render={() => (
+       <Redirect to="/home"/>
+            )}/>
           <Route path="/about"  render={(props)=><About/>} />
           <Route path="/home"  render={(props)=><Home/>}/>
-            <Route path="/resources"  render={(props)=><Resources/>}/>
-               <Route path="/project"  render={(props)=><Project/>}/>
-                   <Route path="/contact"  render={(props)=><Contact/>}/>
+          <Route path="/resources"  render={(props)=><Resources/>}/>
+          <Route path="/project"  render={(props)=><Project/>}/>
+          <Route path="/contact"  render={(props)=><Contact/>}/>
+          <Route path="/collaboration"  render={(props)=><Colloboration/>}/>
         </Switch>
         </div>
    <Footer/>

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {Switch,Route,Redirect} from 'react-router-dom';
-import bg from './images/home_bg.png';
-import btn from './images/btn.png';
-import man from './images/man.png';
+import bg from './images/home_bg.svg';
+import hand from './images/home_hand.svg';
+import man from './images/man.svg';
 import up from './images/up.png';
-import home_head from './images/home_head.png';
+import home_head from './images/home_head.svg';
 import home_head_a from './images/home_head_a.png';
-import man_a from './images/man_a.png';
+import man_a from './images/man_a.svg';
+import line from './images/line.svg';
 import Collab from './collab.js';
 import Featured from './featured.js'
 import './home.css';
@@ -41,10 +42,12 @@ return(
        <div id="home_img">
        <div id="title"> Bridging the gap between Corporate & Academia</div>
        <div id="sub">By providing a platform for academia and industry to interact, CIG proffers to connect, collaborate and innovate</div>
-       <img  id="btn" src={btn}/>
+       <div  id="btn_home"><span>  Let’s Collaborate</span> </div>
 <img  id="img_home" src={bg}/>
 <img  id="home_head" src={home_head}/>
 <img  id="home_head_a" src={home_head_a}/>
+<img  id="hand" src={hand}/>
+<img  id="line" src={line}/>
 
 <a id="vw"> View resources</a>
 <a id="vw_a"> View resources</a>
@@ -59,7 +62,10 @@ return(
 </div>
 
 <div id="suc_col">Successful Collaborations </div>
-<Collab/>
+<div id="col">
+<Collab />
+</div>
+<div id="heading_feat">Featured Works</div>
 <Featured/>
 
         </div>

@@ -60,7 +60,7 @@ return(
           <div id="logo">CIG </div>
 
           <div id="logo_head" onClick={this.handleClick}>Coorporate Interaction Group </div>
-          <Link to="/home" id="first" onClick={this.handleClick}>Collaborations </Link>
+          <Link to="/collaboration" id="first" onClick={this.handleClick}>Collaborations </Link>
           <Link to="/about" ><div id="second"   onClick={this.handleClick}>About Us </div></Link>
           <Link id="third" to="/project"  onClick={this.handleClick}>Our Projects </Link>
         <Link to="/resources" > <div id="fourth"   onClick={this.handleClick}>Resources </div></Link>

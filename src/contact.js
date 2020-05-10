@@ -7,18 +7,28 @@ import contact_msg from './images/contact_msg.png';
 import lin_contact  from'./images/lin_contact.png';
 import fb_contact from './images/fb_contact.png';
 import mail_contact from './images/mail_contact.png';
+import Success from './success.js';
 import Form from './form.js'
-
+import MapContainer from './map.js'
 
 class Contact extends Component {
 constructor(props)
 {
   super(props)
-  this.state={director:"abcdef dvgxhfxh (Ass. Dean)",dire_phone:"7685867979",head:"himanshu pal (chairperson)",head_phone:"76480958"}
+  this.state={director:"abcdef dvgxhfxh (Ass. Dean)",dire_phone:"7685867979",head:"himanshu pal (chairperson)",head_phone:"76480958",visible:false}
+  this.visible= this.visible.bind(this);
+  this.hide= this.hide.bind(this);
 }
 
 
+hide()
+{
+	this.setState({visible:false});
+}
 
+visible(){
+	this.setState({visible:true});
+}
 
 render(){
 
@@ -36,14 +46,16 @@ return(
 <div>
 <img id="contact_phone" src={contact_phone}/>
 </div>
-<img id="contact_map" src={contact_map}/>
+<div id="contact_map">
+<MapContainer/>
+</div>
 <div id="soc">Social Links</div>
 <img id="contact_msg" src={contact_msg}/>
 <img id="lin_contact" src={lin_contact}/>
 <img id="fb_contact" src={fb_contact}/>
 <img id="mail_contact" src={mail_contact}/>
-
-<Form/>
+{(this.state.visible)? <Success visible={this.hide}/> :  null }
+<Form visible={this.visible}/>
         </div>
 
 

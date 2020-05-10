@@ -50,6 +50,9 @@ color: #4F4F4F;
  width: 31.17vw;
  height: 28.69vw;
   margin-left: 12.05vw;
+  border: 1px solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 1px;
 
 }
 .column_res_a:hover {
@@ -86,6 +89,9 @@ border-radius: 1px;
  width: 31.17vw;
  height: 28.69vw;
   margin-left: 12.05vw;
+  border: 1px solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 1px;
 
 }
 

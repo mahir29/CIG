@@ -7,6 +7,7 @@ import contact_msg from './images/contact_msg.png';
 import lin_contact  from'./images/lin_contact.png';
 import fb_contact from './images/fb_contact.png';
 import mail_contact from './images/mail_contact.png';
+import adress from './images/adress.svg';
 import Success from './success.js';
 import Form from './form.js'
 import MapContainer from './map.js'
@@ -54,6 +55,7 @@ return(
 <img id="lin_contact" src={lin_contact}/>
 <img id="fb_contact" src={fb_contact}/>
 <img id="mail_contact" src={mail_contact}/>
+<img id="adress" src={adress}/>
 {(this.state.visible)? <Success visible={this.hide}/> :  null }
 <Form visible={this.visible}/>
         </div>

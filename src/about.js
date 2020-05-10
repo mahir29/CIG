@@ -21,7 +21,8 @@ constructor(props)
   this.state={admin_body:[{name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
   {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
   {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
-  {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"}],
+  {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"},
+ {name:"zaid",desig:"head",img:"https://cdn.stocksnap.io/img-thumbs/960w/architecture-abstract_0OXTLB0E5N.jpg",email:"z@gmail.com",mob:"4658875"}],
 lecture:{heading:"Mission",sub:"Building a stronger connection between Academia & Industry via valuable collaborations",link:""}
   ,workshop:{heading:"Vision",sub:" To make IIT Roorkee a hub of Innovation , Research and opportunities",link:""},
   project:{heading:"Objective",sub:"Knowledge Exchange Seminars Industry Interactions Events Corporate Collaborations",link:"",visible:false,form:false}

@@ -1,7 +1,7 @@
 #view_bg{
 	position: relative;
-	width: 22.98vw;
-height: 23.43vw;
+	width: 25.98vw;
+height: 25.83vw;
 border: 0.065vw solid #F2F2F2;
 box-sizing: border-box;
 border-radius: 0.065vw;
@@ -11,18 +11,18 @@ border-radius: 0.065vw;
 
 #view_bg:hover{
 	background:  #F3F6FD;
-	border: 1px solid #F2F2F2;
+	border: 0.073vw solid #F2F2F2;
 box-sizing: border-box;
 /* blue card */
 
-box-shadow: 0px 0px 24px rgba(183, 183, 183, 0.18), 0px 5px 10px rgba(0, 0, 0, 0.09);
-border-radius: 2px;
+box-shadow: 0vw 0vw 1.757vw rgba(183, 183, 183, 0.18), 0vw 0.366vw 0.732vw rgba(0, 0, 0, 0.09);
+border-radius: 0.146vw;
 }
 
 .view_head{
 	position: absolute;
-left: 110px;
-top: 111px;
+left: 8.053vw;
+top: 8.126vw;
 
 
 /* poppins 30 px lh 28 */
@@ -30,8 +30,8 @@ top: 111px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
-line-height: 38px;
+font-size: 2.196vw;
+line-height: 2.782vw;
 /* identical to box height, or 127% */
 
 display: flex;
@@ -46,18 +46,18 @@ color: #212121;
 .view_sub{
 
 position: absolute;
-width: 301px;
-height: 128px;
-left: 26px;
-top: 166px;
+width: 22.035vw;
+height: 9.370vw;
+left: 1.903vw;
+top: 12.152vw;
 
 /* text 18 px */
 
 font-family: Noto Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 32px;
+font-size: 1.318vw;
+line-height: 2.343vw;
 /* or 178% */
 
 text-align: center;
@@ -69,18 +69,18 @@ color: #4F4F4F
 
 .view_link{
 position: absolute;
-width: 206px;
-height: 20px;
-left: 99px;
-top: 322px;
+width: 15.081vw;
+height: 1.464vw;
+left: 7.947vw;
+top: 23.572vw;
 
 /* unwrapped button 2 */
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
-line-height: 20px;
+font-size: 1.171vw;
+line-height: 1.464vw;
 /* identical to box height, or 125% */
 
 display: flex;
@@ -97,10 +97,10 @@ color: #324FC5;
 
 .view_logo{
 	position: absolute;
-	width: 48px;
-height: 48px;
-left: 152px;
-top: 24px;
+	width: 3.514vw;
+height: 3.514vw;
+left: 11.127vw;
+top: 1.757vw;
 }
 
 

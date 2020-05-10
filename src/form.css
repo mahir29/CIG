@@ -1,9 +1,9 @@
 #form_bg{
 position: absolute;
-  width: 38.542vw;
-height: 67.583vw;
+  width: 43.542vw;
+height: 70.583vw;
 
-top:9.766vw;
+top:21.37vw;
 left:52.083vw;
 /* white */
 
@@ -12,6 +12,7 @@ background: #FFFFFF;
 
 border: 0.04.753vw solid #F3F6FD;
 box-sizing: border-box;
+
 }
 
 .chk_box{
@@ -759,8 +760,8 @@ font-weight: normal;
 
 /* Style the indicator (dot/circle) */
 .container_r .checkmark_r:after {
-  top: 9px;
-  left: 9px;
+  top: 5px;
+  left: 5px;
   width: 8px;
   height: 8px;
   border-radius: 50%;

@@ -1,6 +1,7 @@
 #contact_bg{
 	background: linear-gradient(180deg, rgba(243, 246, 253, 0) 0%, #F3F6FD 100%);
-	height: 78.125vw;
+	height: 80.125vw;
+
 }
 
 #contact_head{
@@ -8,7 +9,7 @@
 	width: 19.54vw;
 height: 4.09vw;
 margin-left: 8.78vw;
-margin-top: 8.34vw;
+margin-top: 14.34vw;
 
 /* POPPINS HEADING */
 
@@ -31,7 +32,7 @@ color: #212121;
 width: 7.68vw;
 height: 2.34vw;
 margin-left: 8.78vw;
-margin-top: 2.03vw;
+margin-top: 3.73vw;
 
 }
 
@@ -42,7 +43,7 @@ position: absolute;
 width: 28.6vw;
 height: 31.11vw;
 left: 12.15vw;
-top: 42.53vw;
+top: 50.53vw;
 
 
 }
@@ -53,7 +54,7 @@ position: absolute;
 width: 12.59vw;
 height: 4.68vw;
 left: 12.29vw;
-top: 18.53vw;
+top: 25.03vw;
 
 /* text 18 px */
 
@@ -77,7 +78,7 @@ position: absolute;
 width: 10.54vw;
 height: 2.34vw;
 left: 12.29vw;
-top: 23.40vw;
+top: 30.30vw;
 
 font-family: Noto Sans;
 font-style: normal;
@@ -97,8 +98,8 @@ color: #212121;
 position: absolute;
 width: 12.59vw;
 height: 4.68vw;
-left: 25.29vw;
-top: 18.53vw;
+left: 30.19vw;
+top: 25.03vw;
 
 /* text 18 px */
 
@@ -121,8 +122,8 @@ color: #212121;
 position: absolute;
 width: 10.54vw;
 height: 2.34vw;
-left: 25.29vw;
-top: 23.40vw;
+left: 30.19vw;
+top: 30.30vw;
 
 font-family: Noto Sans;
 font-style: normal;
@@ -141,7 +142,7 @@ color: #212121;
 #soc{
 position: absolute;
 left: 10.938vw;
-top: 77.08vw;
+top: 86.08vw;
 bottom: 6.510vw;
 
 font-family: Poppins;
@@ -163,13 +164,13 @@ color: #324FC5;
 width: 2.083vw;
 height: 2.083vw;
 left: 7.813vw;
-top: 76.048vw;
+top: 85.048vw;
 }
 
 #lin_contact{
 position: absolute;
 left:11.133vw;
-top: 80.078vw;
+top: 88.078vw;
 width: 1.563vw;
 height: 1.563vw;
 }
@@ -177,7 +178,7 @@ height: 1.563vw;
 #fb_contact{
 position: absolute;
 left:13.737vw;
-top: 80.078vw;
+top: 88.078vw;
 width: 1.563vw;
 height: 1.563vw;
 }
@@ -185,7 +186,7 @@ height: 1.563vw;
 #mail_contact{
 position: absolute;
 left:16.341vw;
-top: 80.078vw;
+top: 88.078vw;
 width: 1.563vw;
 height: 1.563vw;
 }
@@ -204,4 +205,18 @@ height: 1.563vw;
 
 #mail_contact:hover{
 	 box-shadow: 0.130vw 0.130vw 0.065vw grey;
+}
+
+
+#adress{
+	position: absolute;
+width: 26.5vw;
+height: 9.88vw;
+left: 8.78vw;
+top: 37.43vw;
+}
+
+#frm{
+	position: absolute;
+	top:292px;
 }

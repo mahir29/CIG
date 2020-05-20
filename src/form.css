@@ -1,10 +1,10 @@
 #form_bg{
 position: absolute;
-  width: 43.542vw;
+  width: 40.142vw;
 height: 70.583vw;
 
 top:21.37vw;
-left:52.083vw;
+left:47.783vw;
 /* white */
 
 background: #FFFFFF;
@@ -283,7 +283,7 @@ width: 31.966vw;
 height: 1.302vw;
 left: 3.385vw;
 top: 58.581vw !important;
-
+word-wrap: break-word !important;
 /* 14 px */
 
 font-family: Noto Sans;
@@ -331,7 +331,7 @@ border-radius: 0.065vw;
 #name_head{
 
 position: absolute;
-width: 4.557vw;
+width: 9.29vw !important;
 height: 1.693vw;
 left: 3.385vw;
 top: 10.482vw;
@@ -355,7 +355,7 @@ color: #324FC5;
   
 
 position: absolute;
-width: 4.557vw;
+width: 9.29vw !important;
 height: 1.693vw;
 left: 3.385vw;
 top: 17.708vw;
@@ -377,7 +377,7 @@ color: #324FC5;
 #mail_head{
   
 position: absolute;
-width: 4.557vw;
+width: 9.29vw !important;
 height: 1.693vw;
 left: 3.385vw;
 top: 24.935vw;
@@ -656,10 +656,11 @@ left: 3.385vw;
   position: absolute;
   top: 0;
   left: 0;
-  height: 16px;
-  width: 16px;
+  height: 1.04vw;
+  width: 1.04vw;
   background-color: #eee;
-}
+    border: 0.065vw solid  #324FC5;
+  }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
@@ -685,12 +686,12 @@ left: 3.385vw;
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 4px;
-  top: 1px;
-  width: 4px;
-  height: 10px;
+  left: 0.26vw;
+  top: 0.065vw;
+  width: 0.26vw;
+  height: 0.65vw;
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0.195vw 0.195vw 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -700,10 +701,10 @@ left: 3.385vw;
 .container_r {
  display: block;
  
-  padding-left: 35px;
+  padding-left: 2.27vw;
 
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.04vw;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -730,8 +731,8 @@ font-weight: normal;
   position: absolute;
   top: 0;
   left: 0;
-  height: 18px;
-  width: 18px;
+  height: 1.172vw;
+  width: 1.172vw;
   background-color: #eee;
   border-radius: 50%;
 }
@@ -760,10 +761,20 @@ font-weight: normal;
 
 /* Style the indicator (dot/circle) */
 .container_r .checkmark_r:after {
-  top: 5px;
-  left: 5px;
-  width: 8px;
-  height: 8px;
+  top: 0.325vw;
+  left: 0.325vw;
+  width: 0.52vw;
+  height: 0.52vw;
   border-radius: 50%;
   background: white;
 }
+
+  .required:after {
+    content:" *";
+    color: red;
+  }
+
+  .asterik:before {
+    content:"* ";
+    color: red;
+  }

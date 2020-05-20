@@ -11,6 +11,8 @@ import location from './images/location.png';
 import luv from './images/luv.png';
 import lnk from './images/lnk.png';
 import fb from './images/fb.png';
+import link from './images/linkdin.svg';
+import fb_hov from './images/fb.svg';
 
 class Footer extends Component {
 constructor(props)
@@ -34,8 +36,10 @@ return(
        <img id="call" src={call}/>
        <img id="location" src={location}/>
        <img id="luv" src={luv}/>
-       <a>  <img id="lnk" src={lnk}/></a>
-       <a><img id="fb" src={fb}/> </a>
+        <img id="lnk" src={lnk}/>
+       <img id="fb" src={fb}/> 
+        <img id="lnk_hov" src={link}/>
+     <img id="fb_hov" src={fb_hov}/> 
 
 
 <div id="footer_a"> We bring Corporate and Academia together for valuable collaborations.</div>

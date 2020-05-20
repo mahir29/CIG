@@ -7,11 +7,11 @@
 
 
 #about_heading{
-	position: absolute;
+	
 width: 34.83vw;
 height: 7.55vw;
-left: 7.8vw;
-top: 12.76vw;
+margin-top: 14.34vw;
+margin-left: 8.7vw;
 
 /* POPPINS HEADING */
 
@@ -64,8 +64,9 @@ color: #212121;
 	
 width: 35%;
 
-margin-left: 65%;
-margin-top: 13.542vw;
+position: absolute;
+left: 65%;
+top: 15.2vw;
 
 }
 
@@ -102,7 +103,7 @@ width: 100%;
 }
 
 .row_abt{
-	margin-top: 5.1vw;
+	margin-top: 10.1vw;
 
 }
 
@@ -150,11 +151,10 @@ margin-top: 7.6vw;
 
 #about_sub_heading
 {
-	position: absolute;
 width: 44.4%;
 height: 10.41vw;
-left: 7.2%;
-top: 23.4vw;
+margin-left: 8.78vw;
+margin-top: 3.5vw;
 
 
 font-family: Noto Sans;

@@ -170,7 +170,6 @@ text-align: center;
 
 color: #4F4F4F;
 
-border: 0.07vw solid #F2F2F2;
 margin-top: 2.31vw;
 margin-left: 1.97vw;
 }
@@ -179,7 +178,7 @@ margin-left: 1.97vw;
 	width: 11.56vw;
 height: 1.90vw;
 margin-left: 9.1vw;
-margin-top: 5.52vw;
+margin-top: 3.52vw;
 
 /* unwrapped button 2 */
 
@@ -199,7 +198,6 @@ text-transform: capitalize;
 color: #324FC5;
 /* grey 6 */
 
-border: 0.073vw solid #F2F2F2;
 
 }
 
@@ -207,7 +205,7 @@ border: 0.073vw solid #F2F2F2;
 	width: 11.56vw;
 height: 1.90vw;
 margin-left: 11.1vw;
-margin-top: 5.52vw;
+margin-top: 3.52vw;
 
 /* unwrapped button 2 */
 
@@ -227,6 +225,6 @@ text-transform: capitalize;
 color: #324FC5;
 /* grey 6 */
 
-border: 0.073vw solid #F2F2F2;
+
 
 }

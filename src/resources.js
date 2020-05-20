@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Switch,Route,Redirect} from 'react-router-dom';
-import resources_bg from './images/resources_bg.png';
+import resources_bg from './images/resources_bg.svg';
 import './resources.css';
 import dep from './images/dep.png';
 

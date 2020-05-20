@@ -456,7 +456,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 #lnk{
-
+z-index: 2;
 position: absolute;
 left: 4.81vw;
 right: 92.83%;
@@ -468,7 +468,7 @@ height: 1.56vw;
 
 #fb{
 
-
+z-index: 2;
 position: absolute;
 left: 7.81vw;
 right: 89.9%;
@@ -476,4 +476,46 @@ top: 57.94%;
 bottom: 38.08%;
 width: 1.53vw;
 height: 1.56vw;
+}
+
+#lnk_hov{
+z-index: 1;
+position: absolute;
+left: 4.81vw;
+right: 92.83%;
+top: 57.94%;
+bottom: 38.08%;
+width: 1.53vw;
+height: 1.56vw;
+
+}
+
+#fb_hov{
+
+z-index: 1;
+position: absolute;
+left: 7.81vw;
+right: 89.9%;
+top: 57.94%;
+bottom: 38.08%;
+width: 1.53vw;
+height: 1.56vw;
+}
+
+
+
+#fb:hover + #fb_hov {
+z-index: 3;
+}
+
+#fb:hover{
+	display: none;
+}
+
+#lnk:hover + #lnk_hov {
+z-index: 3;
+}
+
+#lnk:hover{
+	display: none;
 }

@@ -1,8 +1,10 @@
 #featured_bg{
 	
-width: 98.9vw;
+width: 91vw;
 height: 43.70vw;
-	background: linear-gradient(180deg, rgba(243, 249, 253, 0) 0%, #F3F6FD 100%);
+	margin-left: 6.14vw;
+
+	
 margin-top: 3.92vw;
 
 }
@@ -17,9 +19,9 @@ margin-top: 3.92vw;
 .card_feat{
 
 
-width: 22.7vw;
-height: 32.7vw;
-margin-left: 7.98vw;
+width: 25.7vw;
+height: 38.7vw;
+margin-left: 2.56vw;
 
  float:left;
 

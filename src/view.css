@@ -21,8 +21,10 @@ border-radius: 0.146vw;
 
 .view_head{
 	position: absolute;
-left: 8.053vw;
+left: 7.2vw;
 top: 8.126vw;
+width: 10.5vw;
+justify-content: center;
 
 
 /* poppins 30 px lh 28 */
@@ -72,7 +74,7 @@ position: absolute;
 width: 15.081vw;
 height: 1.464vw;
 left: 7.947vw;
-top: 23.572vw;
+top: 21.572vw;
 
 /* unwrapped button 2 */
 
@@ -99,7 +101,7 @@ color: #324FC5;
 	position: absolute;
 	width: 3.514vw;
 height: 3.514vw;
-left: 11.127vw;
+left: 11.07vw;
 top: 1.757vw;
 }
 

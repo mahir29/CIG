@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './about.css';
 import {Switch,Route,Redirect} from 'react-router-dom';
-import pic from './images/img-a.png'; 
+import pic from './images/img-a.svg'; 
 import mission from './images/mission.png'; 
 import objective from './images/objective.png'; 
 import vision from './images/vision.png'; 

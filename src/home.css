@@ -5,7 +5,7 @@
 }
 
 #home_img{
-	width: 98.93vw;
+	width: 100%;
 height: 47.5vw;
 
 }
@@ -267,20 +267,20 @@ color: #212121;
 
 .blur{
 position: absolute;
-top:3500px;
-left: 870px;
+top:250.7vw;
+left: 62.32vw;
 z-index: 6;
 background: linear-gradient(308.33deg, rgba(249, 251, 254, 0.67) 29.23%, rgba(253, 254, 255, 0.17) 86.42%);
-width: 418px;
-height: 503px;
+width: 29.94vw;
+height: 36.74vw;
 }
 
 #test_bg{
 	position: absolute;
 width: 100%;
-height: 1054px;
+height: 100.50vw;
 left: 0px;
-top: 3100px;
+top: 201.82vw;
 background: linear-gradient(180deg, rgba(243, 249, 253, 0) 0%, #F3F6FD 100%);
 z-index: -1;
 }
@@ -293,7 +293,7 @@ z-index: -1;
   margin-left: 7.87vw;
   width: 83.5vw;
   margin-top: 10.39vw;
-margin-bottom: 200px;
+margin-bottom: 14.32vw;
 }
 
 .test_scroll_view {
@@ -307,9 +307,9 @@ margin-bottom: 200px;
 .feat_bg{
 	background: linear-gradient(180deg, rgba(243, 249, 253, 0) 0%, #F3F6FD 100%);
 	width: 100%;
-	height: 100px;
+	height: 7.16vw;
 	position: absolute;
-	top:3250px;
+	top:232.8vw;
 	z-index: -1;
 }
 

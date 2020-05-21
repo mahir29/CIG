@@ -607,10 +607,10 @@ height: 1.1vw;
 .container {
   display: block;
 
-  padding-left: 35px;
+  padding-left: 2.5vw;
  
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.146vw;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

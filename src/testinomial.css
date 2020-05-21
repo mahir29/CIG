@@ -2,26 +2,26 @@
 	position: relative;
 
 background: #FFFFFF;
-border-radius: 1px;
+border-radius: 0.065vw;
 width: 56.8vw;
-height: 464px;
-box-shadow: 0px 0px 24px rgba(200, 200, 200, 0.16);
+height: 30.208vw;
+box-shadow: 0vw 0vw 1.563vw rgba(200, 200, 200, 0.16);
 
 }
 
 #t_head{
 
 position: absolute;
-width: 167px;
-height: 32px;
-left: 40px;
-top: 92px;
+width: 10.872vw;
+height: 2.083vw;
+left: 2.604vw;
+top: 5.990vw;
 
 font-family: Noto Sans;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 32px;
+font-size: 1.172vw;
+line-height: 2.083vw;
 /* identical to box height, or 178% */
 
 
@@ -34,16 +34,16 @@ color: #4F4F4F;
 #t_content{
 
 position: absolute;
-width: 708px;
-height: 128px;
-left: 40px;
-top: 132px;
+width: 46.094vw;
+height: 8.333vw;
+left: 2.604vw;
+top: 8.594vw;
 white-space: normal !important;
 font-family: Noto Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 32px;
+font-size: 1.172vw;
+line-height: 2.083vw;
 /* or 178% */
 
 
@@ -56,24 +56,24 @@ color: #4F4F4F;
 #t_img{
 
 position: absolute;
-width: 88px;
-height: 91.02px;
-left: 40px;
-top: 327px;
+width: 5.729vw;
+height: 5.92vw;
+left: 2.604vw;
+top: 21.289vw;
 }
 
 #t_name{
 position: absolute;
-width: 178px;
-height: 32px;
-left: 234px;
-top: 344.84px;
+width: 11.589vw;
+height: 2.083vw;
+left: 15.234vw;
+top: 22.49vw;
 
 font-family: Noto Sans;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 32px;
+font-size: 1.172vw;
+line-height: 2.083vw;
 /* identical to box height, or 178% */
 
 
@@ -85,16 +85,16 @@ color: #4F4F4F;
 #t_des{
 
 position: absolute;
-width: 155px;
-height: 32px;
-left: 234px;
-top: 373px;
+width: 10.091vw;
+height: 2.083vw;
+left: 15.234vw;
+top: 24.284vw;
 
 font-family: Noto Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 32px;
+font-size: 1.042vw;
+line-height: 2.083vw;
 /* identical to box height, or 200% */
 
 
@@ -105,10 +105,10 @@ color: #4F4F4F;
 
 #t_comma{
 position: absolute;
-left: 40px;
-top: 32px;
-width: 56px;
-height: 42px;
+left: 2.604vw;
+top: 2.083vw;
+width: 3.646vw;
+height: 2.734vw;
 
 }
 
@@ -116,9 +116,9 @@ height: 42px;
 
 position: absolute;
 width: 0.13vw;
-height: 100px;
-left: 190px;
-top: 327.83px;
+height: 6.510vw;
+left: 12.370vw;
+top: 21.34vw;
 
 
 

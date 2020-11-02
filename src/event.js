@@ -19,8 +19,11 @@ render(){
 
 
 return(
-       <div >
-     event page
+       <div className="event" >
+    <div> event page
+     xzcdvdzvsd
+     szvdz
+     </div>
         </div>
 
 

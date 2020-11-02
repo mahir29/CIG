@@ -11,6 +11,7 @@ import Resources from './resources.js';
 import Project from './project.js'; 
 import Contact from './contact.js'; 
 import Colloboration from './collaboration.js'; 
+import Event from './event.js'; 
 
 class App extends Component {
 constructor(props)
@@ -40,6 +41,7 @@ return(
           <Route path="/project"  render={(props)=><Project/>}/>
           <Route path="/contact"  render={(props)=><Contact/>}/>
           <Route path="/collaboration"  render={(props)=><Colloboration/>}/>
+           <Route path="/event"  render={(props)=><Event/>}/>
         </Switch>
         </div>
    <Footer/>

@@ -3,7 +3,7 @@
 	margin-bottom: 366.032vw;
 }
 
-.heading{
+.h{
 	position: absolute;
 	width: 27.306vw;
 	height: 3.514vw;
@@ -126,7 +126,7 @@
 	clear: both;
 }
 
-.content{
+.text{
 	padding-bottom: 1.302vw;
 }
 
@@ -187,6 +187,7 @@
 
 .timeline ul li .detail{
 	margin:3.060vw 0 0;
+	max-height: 30px;
 	padding: 1.302vw;
 	font-family: Noto Sans;
 	font-style: normal;
@@ -194,8 +195,27 @@
 	font-size: 1.042vw;
 	line-height: 1.628vw;
     left:-13.021vw;
-    color: #9B9B9B;
+	color: #9B9B9B;
+	overflow: hidden;
 }
+
+.mystyle{
+	display: none;
+}
+
+.timeline ul li .tab{
+	margin:3.060vw 0 0;
+	padding: 1.302vw;
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.042vw;
+	line-height: 1.628vw;
+    left:-13.021vw;
+	color: #9B9B9B;
+}
+
+
 
 .timeline ul li:nth-child(even) .design{
 	margin:3.060vw -10.026vw 0;
@@ -240,12 +260,29 @@
 }
 
 .timeline ul li .back{
-	background: #324FC5;
-	border-radius: 1.367vw;
-	transform: rotate(-180deg);
-	width: 2.083vw;
-	height: 2.083vw;
-	margin:5.208vw 30.924vw;
+	margin: -1.008vw 29.948vw;
+}
+
+
+
+.timeline ul li .expand{
+	margin:-1.509vw -0.004vw;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height, or 125% */
+
+	display: flex;
+	align-items: center;
+	text-align: right;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+
+	/* new blue */
+
+	color: #324FC5;
 }
 
 

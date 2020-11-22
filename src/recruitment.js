@@ -1,0 +1,146 @@
+import React,{Component} from 'react';
+import './recruitment.css';
+import img1 from './images/taken.svg';
+import img2 from './images/recruitment illustration 1.svg';
+import img3 from './images/recruitment illustration 2.svg';
+import img4 from './images/recruitment illustration 3.svg';
+import img5 from './images/recruitment illustration 4.svg';
+import img6 from './images/question.svg';
+import vector from './images/upload.svg';
+import vector2 from './images/download.svg';
+
+class Recruitment extends Component{
+    constructor(props){
+        super(props);
+        this.state={faqs:[
+            {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
+            {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
+            {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
+            {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
+            {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+        ],
+        recruit:true
+        }
+
+    }
+
+    handleClick=(event)=>{
+        event.target.classList.toggle('active');
+    }
+
+    render(){
+        return(
+            <div className="start">
+                <div className="recruitment">Recruitment</div>
+                <div className="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <div className="img1"><img src={img1} /></div>
+                <div className="prob">Problem Statements</div>
+                <div>
+                    <div className="img2"><img src={img2} /></div>
+                    <div className="P1">#Problem 1</div>
+                    <div className="p1">(Event Management)</div>
+                    <div className="C1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="D1">Deadline: November 26,2020</div>
+                    {this.state.recruit==true ?
+                        <div onClick="">
+                            <div className="B1"></div>
+                            <div className="T1">Your Submission Here</div>
+                            <div className="V1"><img src={vector} /></div>
+                        </div>: 
+                        <div onClick="/">
+                            <div className="B1"></div>
+                            <div className="T1">No longer Recruiting</div>
+                        </div>
+                        }
+                    <div onClick="/">
+                        <div className="b1"></div>
+                        <div className="t1">PDF for instructions</div>
+                        <div className="v1"><img src={vector2} /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="img3"><img src={img3} /></div>
+                    <div className="P2">#Problem 2</div>
+                    <div className="p2">(Web Development)</div>
+                    <div className="C2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="D2">Deadline: November 26,2020</div>
+                    {this.state.recruit==true ?
+                        <div onClick="/">
+                            <div className="B2"></div>
+                            <div className="T2">Your Submission Here</div>
+                            <div className="V2"><img src={vector} /></div>
+                        </div>: 
+                        <div onClick="/">
+                            <div className="B2"></div>
+                            <div className="T2">No longer Recruiting</div>
+                        </div>
+                        }
+                    <div onClick="/">
+                        <div className="b2"></div>
+                        <div className="t2">PDF for instructions</div>
+                        <div className="v2"><img src={vector2} /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="img4"><img src={img4} /></div>
+                    <div className="P3">#Problem 3</div>
+                    <div className="p3">(Designing)</div>
+                    <div className="C3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="D3">Deadline: November 26,2020</div>
+                    {this.state.recruit==true ?
+                        <div onClick="/">
+                            <div className="B3"></div>
+                            <div className="T3">Your Submission Here</div>
+                            <div className="V3"><img src={vector} /></div>
+                        </div>: 
+                        <div onClick="/">
+                            <div className="B3"></div>
+                            <div className="T3">No longer Recruiting</div>
+                        </div>
+                        }
+                    <div onClick="/">
+                        <div className="b3"></div>
+                        <div className="t3">PDF for instructions</div>
+                        <div className="v3"><img src={vector2} /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="img5"><img src={img5} /></div>
+                    <div className="P4">#Problem 4</div>
+                    <div className="p4">(Content Development)</div>
+                    <div className="C4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="D4">Deadline: November 26,2020</div>
+                    {this.state.recruit==true ?
+                        <div onClick="/">
+                            <div className="B4"></div>
+                            <div className="T4">Your Submission Here</div>
+                            <div className="V4"><img src={vector} /></div>
+                        </div>: 
+                        <div onClick="/">
+                            <div className="B4"></div>
+                            <div className="T4">No longer Recruiting</div>
+                        </div>
+                        }
+                    <div onClick="/">
+                        <div className="b4"></div>
+                        <div className="t4">PDF for instructions</div>
+                        <div className="v4"><img src={vector2} /></div>
+                    </div>
+                </div>
+                <div className="heading">FAQs</div>
+                <div className="img6"><img src={img6} /></div>
+                <div className="accordian">
+                {this.state.faqs.map((faq,index)=>(
+                    <div className="contentBx" onClick={this.handleClick}>
+                        <div className="label">{faq.ques}</div>
+                        <div className="answer">{faq.ans}</div>
+                    </div>
+                )
+                )}
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Recruitment;

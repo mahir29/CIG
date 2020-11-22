@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './event.css';
 import eve from './images/eve.svg';
+import poly from './images/Polygon.svg';
+import ar from './images/ar.svg';
 import 'font-awesome/css/font-awesome.min.css';
 
 
@@ -10,11 +12,16 @@ constructor(props)
 {
   super(props);
   this.state={events:[
-    {topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+    {topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
   ]};
+}
+
+handleClick=(event)=>{
+  var element = document.getElementsByClassName("detail");
+  element.classList.toggle("mystyle");
 }
 
 render(){
@@ -22,7 +29,7 @@ render(){
 
   return(
     <div>
-      <div className="heading">Events</div>
+      <div className="h">Events</div>
       <div className="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
@@ -35,13 +42,19 @@ render(){
         <ul>
         {this.state.events.map((eve,index)=>(
           <li>
-            <div className="content">
+            <div className="text">
               <div className="topic">{eve.topic}</div>
               <div className="design">
-              <div className="detail">{eve.details}
-                <div className="back"><i class="fa fa-angle-down" style={{"font-size":"1.628vw","color":"white","margin":"0.456vw","padding":"-0.781vw","transform": "rotate(-180deg)"}}></i></div>
-                <div className="date">{eve.date}</div>
+              <div className="detail">{eve.details}</div>
+              <div className="tab" onClick={this.handleClick}>
+                <div className="back"><img src={poly}></img></div>
+                <div className="expand">
+                  <div>Expand</div>
+                  <img src={ar}></img>
+                </div>
               </div>
+                <div className="date">{eve.date}</div>
+            
               </div>
             </div>
           </li>

@@ -1,7 +1,6 @@
-.event{
-	background: #E5E5E5;
-	margin-bottom: 366.032vw;
-}
+
+
+
 
 .h{
 	position: absolute;
@@ -87,6 +86,7 @@
 	padding:2.604vw 0;
 	width:65.104vw;
 }
+
 
 .timeline:before{
 	content: '';
@@ -184,8 +184,8 @@
 	color: #324FC5;
 	
 }
-
-.timeline ul li .detail{
+	
+.timeline ul li .detail.visible{
 	margin:3.060vw 0 0;
 	max-height: 30px;
 	padding: 1.302vw;
@@ -197,14 +197,12 @@
     left:-13.021vw;
 	color: #9B9B9B;
 	overflow: hidden;
+	transition:0.5s;
 }
 
-.mystyle{
-	display: none;
-}
-
-.timeline ul li .tab{
+.timeline ul li .detail.unvisible{
 	margin:3.060vw 0 0;
+	max-height: 30px;
 	padding: 1.302vw;
 	font-family: Noto Sans;
 	font-style: normal;
@@ -213,11 +211,13 @@
 	line-height: 1.628vw;
     left:-13.021vw;
 	color: #9B9B9B;
+	transition:0.5s;
 }
 
 
 
-.timeline ul li:nth-child(even) .design{
+
+.timeline ul li:nth-child(even) .design.visible{
 	margin:3.060vw -10.026vw 0;
 	width: 35.547vw;
 	height: 13.021vw;
@@ -229,12 +229,44 @@
 	box-shadow: 0.260vw 0.260vw 2.148vw rgba(50, 79, 197, 0.09);
 	border-radius: 0.326vw;
 		/* or 156% */
+		transition:0.5s;
 }
 
-.timeline ul li:nth-child(odd) .design{
+.timeline ul li:nth-child(even) .design.unvisible{
+	margin:3.060vw -10.026vw 0;
+	width: 35.547vw;
+	height: 387px;
+
+	background: #FFFFFF;
+	/* card us */
+
+	box-shadow: 0.260vw 0.260vw 2.148vw rgba(50, 79, 197, 0.09);
+	border-radius: 0.326vw;
+		/* or 156% */
+		transition:0.5s;
+}
+
+
+
+.timeline ul li:nth-child(odd) .design.visible{
 	margin:3.060vw 0 0;
 	width: 35.547vw;
 	height: 13.021vw;
+    
+   
+	background: #FFFFFF;
+	/* card us */
+
+	box-shadow: 0.260vw 0.260vw 2.148vw rgba(50, 79, 197, 0.09);
+	border-radius: 0.326vw;
+		/* or 156% */
+		transition:0.5s;
+}
+
+.timeline ul li:nth-child(odd) .design.unvisible{
+	margin:3.060vw 0 0;
+	width: 35.547vw;
+	height: 387px;
     
 
 	background: #FFFFFF;
@@ -243,7 +275,9 @@
 	box-shadow: 0.260vw 0.260vw 2.148vw rgba(50, 79, 197, 0.09);
 	border-radius: 0.326vw;
 		/* or 156% */
+		transition:0.5s;
 }
+
 
 .timeline ul li .date{
 	background: #324FC5;
@@ -259,19 +293,41 @@
 	color: #FFFFFF;
 }
 
-.timeline ul li .back{
-	margin: -1.008vw 29.948vw;
+.timeline ul li .back.visible{
+	margin: -100px 480px;
+	cursor: pointer;
+	transition:2s;
+}
+
+.timeline ul li .back.unvisible{
+	display: none;
+	transition:2s;
+}
+
+.timeline ul li .back2.visible{
+	margin: -280px 490px;
+	height:42px;
+	width: 42px;
+	cursor: pointer;
+	transition:2s;
+}
+
+.timeline ul li .back2.unvisible{
+	display: none;
+	transition:2s;
 }
 
 
 
-.timeline ul li .expand{
-	margin:-1.509vw -0.004vw;
+.timeline ul li .expand.visible{
+	position: relative;
+	margin:60px 30px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 20px;
+	transition:2s;
 	/* identical to box height, or 125% */
 
 	display: flex;
@@ -284,6 +340,24 @@
 
 	color: #324FC5;
 }
+
+.timeline ul li .expand.unvisible {
+	display:none;
+	transition:2s;
+	}
+
+	.timeline ul li .expand2.visible{
+		position: relative;
+		margin:150px 30px;
+		transition:2s;
+		
+	}
+	
+	.timeline ul li .expand2.unvisible {
+		display:none;
+		transition:2s;
+		}
+
 
 
 .timeline ul li:nth-child(even) .date{

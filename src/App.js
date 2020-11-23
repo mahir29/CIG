@@ -17,7 +17,10 @@ import Recruitment from './recruitment';
 class App extends Component {
 constructor(props)
 {
-  super(props)
+  super(props);
+  this.state={
+    recruit:false
+  }
   
 }
 
@@ -41,9 +44,9 @@ return(
           <Route path="/resources"  render={(props)=><Resources/>}/>
           <Route path="/project"  render={(props)=><Project/>}/>
           <Route path="/contact"  render={(props)=><Contact/>}/>
-          <Route path="/collaboration"  render={(props)=><Colloboration/>}/>
+          <Route path="/collaboration"  render={(props)=><Colloboration  />}/>
            <Route path="/event"  render={(props)=><Event/>}/>
-           <Route path="/recruitment"  render={(props)=><Recruitment/>}/>
+           <Route path="/recruitment"  render={(props)=><Recruitment recruit={this.state.recruit}/>}/>
         </Switch>
         </div>
    <Footer/>

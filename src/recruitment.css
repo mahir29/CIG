@@ -823,3 +823,76 @@ color: #212121;
     padding-right: 3.255vw;
 }
 
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  #over{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 29.427vw;
+    height: 14.453vw;
+    background: #FFFFFF;
+    border: 0.065vw solid #F3F6FD;
+    box-sizing: border-box;
+    box-shadow: 0vw 0.521vw 1.302vw rgba(0, 0, 0, 0.4);
+    border-radius: 0.651vw;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  #notice{
+    position: relative;
+    margin:2.604vw;
+    margin-top: 3.255vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.977vw;
+    line-height: 1.693vw;
+    text-align: center;
+    
+    color: #324FC5;
+  }
+
+  #img7{
+      position: relative;
+      margin:-1.953vw;
+      margin-left:2.604vw;
+  }
+
+  #ok{
+    position: relative;
+    display: inline;
+    margin-left: 6.185vw;
+    background: #102886;
+    border-radius: 0.130vw;
+    width: 6.706vw;
+    padding:0.977vw 2.930vw;
+    text-align: center;
+    height: 2.604vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.042vw;
+    line-height: 1.302vw;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* white */
+
+    color: #FFFFFF;
+  }

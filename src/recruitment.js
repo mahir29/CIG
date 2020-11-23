@@ -6,6 +6,7 @@ import img3 from './images/recruitment illustration 2.svg';
 import img4 from './images/recruitment illustration 3.svg';
 import img5 from './images/recruitment illustration 4.svg';
 import img6 from './images/question.svg';
+import img7 from './images/no-recruit-illustration.svg';
 import vector from './images/upload.svg';
 import vector2 from './images/download.svg';
 
@@ -19,13 +20,16 @@ class Recruitment extends Component{
             {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
             {ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
         ],
-        recruit:true
         }
 
     }
 
     handleClick=(event)=>{
         event.target.classList.toggle('active');
+    }
+
+    handleOk=()=>{
+        document.getElementById("over").style.display="none";
     }
 
     render(){
@@ -41,17 +45,13 @@ class Recruitment extends Component{
                     <div className="p1">(Event Management)</div>
                     <div className="C1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                     <div className="D1">Deadline: November 26,2020</div>
-                    {this.state.recruit==true ?
-                        <div onClick="">
+                    
+                    <div onClick="/">
                             <div className="B1"></div>
                             <div className="T1">Your Submission Here</div>
                             <div className="V1"><img src={vector} /></div>
-                        </div>: 
-                        <div onClick="/">
-                            <div className="B1"></div>
-                            <div className="T1">No longer Recruiting</div>
-                        </div>
-                        }
+                    </div>
+                        
                     <div onClick="/">
                         <div className="b1"></div>
                         <div className="t1">PDF for instructions</div>
@@ -64,17 +64,11 @@ class Recruitment extends Component{
                     <div className="p2">(Web Development)</div>
                     <div className="C2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                     <div className="D2">Deadline: November 26,2020</div>
-                    {this.state.recruit==true ?
-                        <div onClick="/">
+                    <div onClick="/">
                             <div className="B2"></div>
                             <div className="T2">Your Submission Here</div>
                             <div className="V2"><img src={vector} /></div>
-                        </div>: 
-                        <div onClick="/">
-                            <div className="B2"></div>
-                            <div className="T2">No longer Recruiting</div>
-                        </div>
-                        }
+                    </div>
                     <div onClick="/">
                         <div className="b2"></div>
                         <div className="t2">PDF for instructions</div>
@@ -87,17 +81,11 @@ class Recruitment extends Component{
                     <div className="p3">(Designing)</div>
                     <div className="C3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                     <div className="D3">Deadline: November 26,2020</div>
-                    {this.state.recruit==true ?
-                        <div onClick="/">
+                    <div onClick="/">
                             <div className="B3"></div>
                             <div className="T3">Your Submission Here</div>
                             <div className="V3"><img src={vector} /></div>
-                        </div>: 
-                        <div onClick="/">
-                            <div className="B3"></div>
-                            <div className="T3">No longer Recruiting</div>
-                        </div>
-                        }
+                    </div>
                     <div onClick="/">
                         <div className="b3"></div>
                         <div className="t3">PDF for instructions</div>
@@ -110,17 +98,11 @@ class Recruitment extends Component{
                     <div className="p4">(Content Development)</div>
                     <div className="C4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                     <div className="D4">Deadline: November 26,2020</div>
-                    {this.state.recruit==true ?
-                        <div onClick="/">
+                    <div onClick="/">
                             <div className="B4"></div>
                             <div className="T4">Your Submission Here</div>
                             <div className="V4"><img src={vector} /></div>
-                        </div>: 
-                        <div onClick="/">
-                            <div className="B4"></div>
-                            <div className="T4">No longer Recruiting</div>
-                        </div>
-                        }
+                    </div>
                     <div onClick="/">
                         <div className="b4"></div>
                         <div className="t4">PDF for instructions</div>
@@ -137,7 +119,18 @@ class Recruitment extends Component{
                     </div>
                 )
                 )}
-                </div>
+                {this.props.recruit?
+                <div></div>:
+                <div id="overlay">
+                    <div id="over">
+                      <div id="notice">Upcoming recruitment dates will be announced. Stay tuned!!</div>
+                      <img src={img7} id="img7"/>
+                      <div onClick={this.handleOk} id="ok">
+                        Ok
+                      </div>
+                    </div>
+                </div>}
+               </div> 
             </div>
         )
     }

@@ -57,9 +57,9 @@ render(){
               <div className={`design ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`}>
                 <div className={`detail ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`}>{eve.details}</div>
               
-                <img className={`back ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`} src={poly} onClick={() => this.showEditDiv(eve.id)}></img>
+                <img className={`back ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`} src={poly} ></img>
                 <img className={`back2 ${!this.state.editVisibles[eve.id]? "unvisible": "visible"}`} src={up} onClick={() => this.showEditDiv(eve.id)}></img>
-                <div  className={`expand ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`}>
+                <div  className={`expand ${!this.state.editVisibles[eve.id]? "visible": "unvisible"}`} onClick={() => this.showEditDiv(eve.id)}>
                   <div>Expand</div>
                   <img src={ar}></img>
                 </div>

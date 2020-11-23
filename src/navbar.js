@@ -62,9 +62,12 @@ return(
           <div id="logo_head" onClick={this.handleClick}>Coorporate Interaction Group </div>
           <Link to="/collaboration" id="first" onClick={this.handleClick}>Collaborations </Link>
           <Link to="/about" ><div id="second"   onClick={this.handleClick}>About Us </div></Link>
-          <Link id="third" to="/project"  onClick={this.handleClick}>Our Projects </Link>
-        <Link to="/resources" > <div id="fourth"   onClick={this.handleClick}>Resources </div></Link>
-          <Link to="/contact" id="fifth"  onClick={this.handleClick}  >Contact</Link>
+            <Link to="/event" id="third" onClick={this.handleClick}>Events </Link>
+          <Link id="fourth" to="/project"  onClick={this.handleClick}>Our Projects </Link>
+            <Link to="/diaries" id="fifth" onClick={this.handleClick}>Interview Diaries </Link>
+              <Link to="/recruitment" id="sixth" onClick={this.handleClick}>recruitment </Link>
+        <Link to="/resources" > <div id="seventh"   onClick={this.handleClick}>Resources </div></Link>
+          <Link to="/contact" id="eigth"  onClick={this.handleClick}  >Contact</Link>
          
          </div>
          

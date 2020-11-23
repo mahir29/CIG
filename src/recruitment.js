@@ -29,7 +29,7 @@ class Recruitment extends Component{
     }
 
     handleOk=()=>{
-        document.getElementById("over").style.display="none";
+        document.getElementById("overlay").style.display="none";
     }
 
     render(){

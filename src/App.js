@@ -13,6 +13,7 @@ import Contact from './contact.js';
 import Colloboration from './collaboration.js'; 
 import Event from './event.js'; 
 import Recruitment from './recruitment';
+import Diaries from './diaries';
 
 class App extends Component {
 constructor(props)
@@ -47,6 +48,7 @@ return(
           <Route path="/collaboration"  render={(props)=><Colloboration  />}/>
            <Route path="/event"  render={(props)=><Event/>}/>
            <Route path="/recruitment"  render={(props)=><Recruitment recruit={this.state.recruit}/>}/>
+           <Route path="/diaries" render={(props)=><Diaries/>} />
         </Switch>
         </div>
    <Footer/>

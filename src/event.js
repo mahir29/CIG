@@ -20,6 +20,7 @@ constructor(props)
     {id:4,topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
   ],
   editVisibles: {},
+  bg:false
   };
 }
 
@@ -28,7 +29,8 @@ showEditDiv = id => {
     editVisibles: {
       ...prevState.editVisibles,
       [id]: !prevState.editVisibles[id]
-    }
+    },
+    bg:!this.state.bg
   }));
 };
 
@@ -86,3 +88,5 @@ render(){
 
 
 export default Event;
+
+

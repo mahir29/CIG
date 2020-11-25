@@ -25,6 +25,14 @@
 	color: #212121;
 }
 
+
+.expand2{
+width: 11.6vw;
+height: 9.22vw;
+
+}
+
+
 .description{
 	position: absolute;
 	width: 37.701vw;
@@ -235,7 +243,7 @@
 .timeline ul li:nth-child(even) .design.unvisible{
 	margin:3.060vw -10.026vw 0;
 	width: 35.547vw;
-	height: 387px;
+	height: 28.33vw;
 
 	background: #FFFFFF;
 	/* card us */
@@ -293,44 +301,50 @@
 	color: #FFFFFF;
 }
 
+
+.back{
+	width: 3.35vw;
+	height: 4.2vw;
+}
+
 .timeline ul li .back.visible{
-	margin: 5.208vw 5.208vw;
-	margin-left:480px;
-	transition:2s;
+	margin: 5.208vw ;
+	margin-left:32.20vw;
+	transition:0.4s;
 }
 
 .timeline ul li .back.unvisible{
 	display: none;
-	transition:2s;
+	transition:0.4s;
 }
 
 .timeline ul li .back2.visible{
-	margin: 5.208vw 5.208vw;
+	margin: 5.208vw;
 	margin-top: 16.276vw;
-	margin-left: 31.250vw;
+	margin-left: 32.10vw;
 	height:2.734vw;
 	width: 2.734vw;
 	cursor: pointer;
-	transition:2s;
+	transition:0.4s;
 }
 
 .timeline ul li .back2.unvisible{
 	display: none;
-	transition:2s;
+	transition:0.4s;
 }
 
 
 
 .timeline ul li .expand.visible{
 	position: relative;
-	margin:3.906vw 1.953vw;
-	margin-top: -7.813vw;
+	margin:3.906vw 1.53vw;
+	margin-top: -8.513vw;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 1.042vw;
 	line-height: 1.302vw;
-	transition:2s;
+	transition:0.4s;
 	cursor: pointer;
 	/* identical to box height, or 125% */
 
@@ -347,19 +361,19 @@
 
 .timeline ul li .expand.unvisible {
 	display:none;
-	transition:2s;
+	transition:0.4s;
 	}
 
 	.timeline ul li .expand2.visible{
 		position: relative;
 		margin:-13.021vw 4.557vw;
-		transition:2s;
+		transition:0.4s;
 		
 	}
 	
 	.timeline ul li .expand2.unvisible {
 		display:none;
-		transition:2s;
+		transition:0.4s;
 		}
 
 
@@ -383,3 +397,5 @@
 }
 
 	
+
+

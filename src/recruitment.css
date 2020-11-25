@@ -54,6 +54,11 @@
     top: 9.810vw;
 }
 
+.imgWidth{
+    width: 100%;
+    height: 100%;
+}
+
 .prob{
     position: absolute;
 width: 36.457vw;
@@ -220,9 +225,9 @@ color: #212121;
 .v1{
 
     position: absolute;
-    width: 10.907vw;
-    height: 1.349vw;
-    left:67.778vw;
+    width: 10.507vw;
+    height: 1.149vw;
+    left: 62.778vw;
     top: 86.078vw;
 }
 
@@ -413,9 +418,9 @@ top: 103.001vw;
 .v2{
 
     position: absolute;
-    width: 10.907vw;
-    height: 1.349vw;
-    left:67.778vw;
+     width: 10.507vw;
+    height: 1.149vw;
+    left: 62.778vw;
     top: 122.169vw;
 }
 
@@ -568,9 +573,9 @@ top: 103.001vw;
 
 .v3{
     position: absolute;
-    width: 10.907vw;
-    height: 1.349vw;
-    left: 67.778vw;
+    width: 10.507vw;
+    height: 1.149vw;
+    left: 62.778vw;
     top: 158.260vw;
 }
 
@@ -604,7 +609,7 @@ top: 103.001vw;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.46vw;
     line-height: 3.514vw;
     /* identical to box height, or 240% */
     
@@ -724,9 +729,9 @@ top: 103.001vw;
 
 .v4{
     position: absolute;
-    width: 10.907vw;
-    height: 1.349vw;
-    left: 67.778vw;
+      width: 10.507vw;
+    height: 1.149vw;
+    left: 62.778vw;
     top: 196.986vw;
 }
 
@@ -762,26 +767,39 @@ color: #212121;
 }
 
 .accordian{
-    margin-top: 227.865vw;
-    width: 91.146vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width:73.438vw;
+    margin-top: 226.563vw;
+    margin-left:11.719vw;
 }
 
-.accordian .contentBx{
+.accordian .contentBx.unactive{
   position: relative;
-  padding-left: 2.669vw;
-  padding-top: 1.693vw;
-  padding-right: 1.693vw;
-  margin-bottom: 1.432vw;
-  margin-left:8.464vw;
+  margin:0.651vw 1.302vw;
+  height: 5.599vw;
   background: #FFFFFF;
   box-shadow: 0.260vw 0.260vw 1.302vw rgba(166, 166, 166, 0.25);
   border-radius: 0.651vw;
-  cursor: pointer;
 }
 
-.accordian .contentBx .label{
+.accordian .contentBx.active{
     position: relative;
-    padding-bottom: 1.693vw;
+    margin:0.651vw 1.302vw;
+    background: #FFFFFF;
+    box-shadow: 0.260vw 0.260vw 1.302vw rgba(166, 166, 166, 0.25);
+    border-radius: 0.651vw;
+  }
+
+.accordian .contentBx.unactive .label{
+    position: relative;
+    margin-top:1.953vw;
+    margin-left:1.953vw;
+    margin-right:1.953vw;
+    margin-bottom: 0vw;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
@@ -790,38 +808,75 @@ color: #212121;
     color: #4F4F4F;
 }
 
-.accordian .contentBx .label:before{
+.accordian .contentBx.active .label{
+    position: relative;
+    margin:1.953vw;
+    margin-bottom: 0.651vw;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.172vw;
+    line-height: 2.083vw;
+    color: #4F4F4F;
+}
+
+.accordian .contentBx.unactive .label:before{
     content:'+';
     position: absolute;
-    top:1%;
-    right:0.651vw;
+    top:50%;
+    right:1.302vw;
     color:#324FC5;
-    font-size: 1.953vw;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .accordian .contentBx.active .label:before{
     content:'x';
-    font-size: 1.302vw;
+    position: absolute;
+    top:50%;
+    right:1.302vw;
+    color:#324FC5;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
-.accordian .contentBx .answer{
+
+.accordian .contentBx.unactive .answer{
     position: relative;
+    margin-top: 1.953vw;
+    padding-left: 1.953vw;
+    padding-right: 3.255vw;
+    padding-bottom: 1.302vw;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.172vw;
+    line-height: 2.083vw;
+    color: #FFFFFF;
+    height: 0;
+    overflow: hidden;    
+    transition: 0.5s;
+}
+
+.accordian .contentBx.active .answer{
+    position: relative;
+    padding-top: 0.651vw;
+    padding-left: 1.953vw;
+    padding-right: 3.255vw;
+    padding-bottom: 1.302vw;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 1.172vw;
     line-height: 2.083vw;
     color: #4F4F4F;
-    height: 0;
+    height: 6.510vw;
     overflow: hidden;    
     transition: 0.5s;
-    overflow-y: auto;
 }
 
-.accordian .contentBx.active .answer{
-    height:9.766vw;
-    padding-right: 3.255vw;
-}
 
 #overlay {
     position: fixed; /* Sit on top of the page content */
@@ -870,6 +925,8 @@ color: #212121;
       position: relative;
       margin:-1.953vw;
       margin-left:2.604vw;
+      width: 4.97vw;
+      height: 6.31vw;
   }
 
   #ok{
@@ -887,6 +944,8 @@ color: #212121;
     font-weight: 600;
     font-size: 1.042vw;
     line-height: 1.302vw;
+    width: 7.54vw;
+    height: 2.92vw;
     /* identical to box height, or 125% */
 
     letter-spacing: 0.02em;

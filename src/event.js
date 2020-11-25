@@ -20,7 +20,6 @@ constructor(props)
     {id:4,topic:"Topic for the event", date:"January 19,2020",details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
   ],
   editVisibles: {},
-  bg:false
   };
 }
 
@@ -29,8 +28,7 @@ showEditDiv = id => {
     editVisibles: {
       ...prevState.editVisibles,
       [id]: !prevState.editVisibles[id]
-    },
-    bg:!this.state.bg
+    }
   }));
 };
 
@@ -44,7 +42,7 @@ render(){
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
       <div className="image">
-        <img src={eve}></img>
+        <img className ="imgWidth" src={eve}></img>
       </div>
       <div className="timeline_head">Timeline for our events</div>
       
@@ -64,7 +62,7 @@ render(){
                   <img src={ar}></img>
                 </div>
                 <div className={`expand2 ${!this.state.editVisibles[eve.id]? "unvisible": "visible"}`}>
-                  <img src={imge}></img>
+                  <img  className ="imgWidth" src={imge}></img>
                 </div>
               
                 <div className="date">{eve.date}</div>
